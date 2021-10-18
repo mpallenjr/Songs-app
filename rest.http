@@ -11,9 +11,9 @@ content-type: application/json
 
 }
 ###
-GET http://localhost:3000/songs/4.json
+GET http://localhost:3000/songs/5.json
 ###
-PATCH http://localhost:3000/songs/4.json
+PATCH http://localhost:3000/songs/5.json
 content-type: application/json
 
 {
