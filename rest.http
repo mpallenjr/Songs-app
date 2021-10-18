@@ -10,3 +10,5 @@ content-type: application/json
       "input_year": "year_1"
 
 }
+###
+GET http://localhost:3000/songs/4.json
