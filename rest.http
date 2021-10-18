@@ -12,3 +12,17 @@ content-type: application/json
 }
 ###
 GET http://localhost:3000/songs/4.json
+###
+PATCH http://localhost:3000/songs/4.json
+content-type: application/json
+
+{
+
+"input_title": "My latest song",
+"input_album": "My newest Album",
+"input_artist": "I'm the artist",
+"input_year": "2021"
+
+
+}
+
