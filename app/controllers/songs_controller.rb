@@ -5,6 +5,13 @@ class SongsController < ApplicationController
   end
 
   def create
-    
+    new_song = Song.new(
+      title: params[:input_title],
+      album: params[:input_album],
+      artist: params[:input_artist],
+      year: params[:input_year]
+    )
+    new_song.save
+    render json: new_song.as_json
   end
 end

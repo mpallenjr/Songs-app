@@ -1,3 +1,12 @@
 GET http://localhost:3000/songs.json
 ###
 POST http://localhost:3000/songs.json
+content-type: application/json
+
+{
+      "input_title": "song_1",
+      "input_album": "album_1",
+      "input_artist": "artist_1",
+      "input_year": "year_1"
+
+}
